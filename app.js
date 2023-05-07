@@ -16,14 +16,6 @@ if(missing.length) {
   return
 }
 
-connectDB();
-mongoose.connection.once('open', () => {
-  console.log('connected to mongo')
-  app.listen(3001, () => {
-    console.log("Server is running on port 3001");
-  });
-})
-
 // middlewares
 app.use(express.json());
 app.use(fileUpload({limits: {fileSize: 1 * 1024 * 1024}})); // 1MB file size limit for uploads
@@ -33,9 +25,13 @@ app.use(logger);
 app.use("/", healthRouter);
 app.use("/products", productRouter);
 
-app.listen(PORT, () => {
-  console.log("Server is running on port", PORT);
-});
+connectDB();
+mongoose.connection.once('open', () => {
+  console.log('connected to mongo')
+  app.listen(PORT, () => {
+    console.log("Server is running on port", PORT);
+  });
+})
 
 
 module.exports = app;
