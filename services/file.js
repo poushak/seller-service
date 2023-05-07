@@ -1,5 +1,22 @@
-const uploadFile = (image) => {
-    console.log(image)
-}
+const storage = require('../apiServices/storage');
 
-module.exports = uploadFile;
+const uploadItem = (id, file) =>  new Promise((resolve, reject) => {
+    const bucket = storage.bucket('poushak');
+    const fileName = `seller/${id}/${Date.now()}_`  + file.name.replace(/ /g, "_");
+    const blob = bucket.file(fileName);
+    const blobStream = blob.createWriteStream({
+        resumable: false
+    });
+    blobStream.on('finish', () => {
+        const url = `https://storage.googleapis.com/${bucket.name}/${blob.name}`;
+        resolve(url);
+      })
+      .on('error', () => {
+        reject(`Unable to upload image, something went wrong`)
+      })
+      .end(file.data)
+});
+
+module.exports = {
+    uploadItem
+};

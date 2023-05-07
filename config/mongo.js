@@ -13,4 +13,16 @@ const connectDB = async () => {
     }
 }
 
-module.exports = connectDB;
+const initEnv = () => {
+    const missing = [];
+    if(!process.env.SERVICE_ACCOUNT_FILE) {
+        missing.push('SERVICE_ACCOUNT_FILE');
+    }
+
+    return missing;
+}
+
+module.exports = {
+    connectDB,
+    initEnv,
+};
