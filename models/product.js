@@ -95,4 +95,11 @@ const productSchema = new Schema({
   }
 });
 
+productSchema.pre("findOneAndUpdate", function (next) {
+  this.options.runValidators = true;
+  this.options.new = true;
+  next();
+});
+
+
 module.exports = mongoose.model("Product", productSchema);
