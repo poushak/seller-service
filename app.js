@@ -6,6 +6,7 @@ const logger = require("./middlewares/logger");
 const {connectDB, initEnv} = require("./config/mongo")
 const productRouter = require("./routes/product");
 const healthRouter = require("./routes/health");
+const addressRouter = require("./routes/address");
 
 const app = express();
 
@@ -24,6 +25,7 @@ app.use(logger);
 // routes
 app.use("/", healthRouter);
 app.use("/products", productRouter);
+app.use("/users/:userId/addresses", addressRouter);
 
 connectDB();
 mongoose.connection.once('open', () => {

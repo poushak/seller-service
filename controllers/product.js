@@ -2,7 +2,8 @@ const productService = require("../services/product");
 
 const getProducts = async (req, res) => {
   try {
-    const products = await productService.getProducts();
+    const userId = req.headers['x-id'];
+    const products = await productService.getProducts(userId);
     res.json({ success: products });
   } catch (err) {
     res.status(500).json({ error: err.message });
