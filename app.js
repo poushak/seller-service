@@ -7,6 +7,7 @@ const {connectDB, initEnv} = require("./config/mongo")
 const productRouter = require("./routes/product");
 const healthRouter = require("./routes/health");
 const addressRouter = require("./routes/address");
+const userRouter = require("./routes/user");
 
 const app = express();
 
@@ -25,6 +26,7 @@ app.use(logger);
 // routes
 app.use("/", healthRouter);
 app.use("/products", productRouter);
+app.use("/users", userRouter);
 app.use("/users/:userId/addresses", addressRouter);
 
 connectDB();

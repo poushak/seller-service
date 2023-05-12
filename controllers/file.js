@@ -1,4 +1,4 @@
-const uploadFileService = require('../services/file');
+const fileService = require('../services/file');
 
 const uploadFiles = (req, res) => {
     try {
@@ -7,7 +7,7 @@ const uploadFiles = (req, res) => {
             return
         }
 
-        const {id} = req.params;
+        const id = req.headers['x-id'];
         const {file} = req.files;
         let files = [];
         if(file.length) {
@@ -18,7 +18,7 @@ const uploadFiles = (req, res) => {
 
         const results = [];
         files.map(async item => {
-            results.push(uploadFileService.uploadItem(id, item));
+            results.push(fileService.uploadItem(id, item));
         });
 
         Promise.all(results).then((values) => {
@@ -27,11 +27,21 @@ const uploadFiles = (req, res) => {
             res.status(500).json({error: 'unexpected error happened'});
         });
     } catch(e) {
-        console.log(e)
-        res.status(500).json({error: 'unexpected error happened'})
+        res.status(500).json({error: 'unexpected error happened'});
+    }
+}
+
+const deleteFile = async (req, res) => {
+    try {
+        const {imageName} = req.body;
+        await fileService.deleteItem(imageName)
+        res.json({success: 'image deleted successfully'});
+    } catch(err) {
+        res.status(500).json({error: 'unexpected error happened'});
     }
 }
 
 module.exports = {
     uploadFiles,
+    deleteFile
 };

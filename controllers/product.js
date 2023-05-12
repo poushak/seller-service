@@ -12,7 +12,9 @@ const getProducts = async (req, res) => {
 
 const createProduct = async (req, res) => {
   try {
-    const product = await productService.createProduct(req.body);
+    const payload = req.body;
+    payload.sellerId = req.headers['x-id'];
+    const product = await productService.createProduct(payload);
     res.json({ success: product });
   } catch (err) {
     res.status(500).json({ error: err.message });
@@ -30,7 +32,9 @@ const getProduct = async (req, res) => {
 
 const updateProduct = async (req, res) => {
   try {
-    const product = await productService.updateProduct(req.params.id, req.body);
+    const payload = req.body;
+    payload.sellerId = req.headers['x-id'];
+    const product = await productService.updateProduct(req.params.id, payload);
     res.json({ success: product });
   } catch (err) {
     res.status(500).json({ error: err.message });

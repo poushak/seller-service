@@ -6,12 +6,13 @@ const {
   updateProduct,
   deleteProduct,
 } = require("../controllers/product");
-const {uploadFiles} = require('../controllers/file');
+const {uploadFiles, deleteFile} = require('../controllers/file');
 
 const router = express.Router();
 
 router.route("/:id/images")
   .post(uploadFiles)
+  .delete(deleteFile)
 
 router.route("/:id")
   .get(getProduct)

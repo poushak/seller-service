@@ -1,10 +1,12 @@
 const db = require('../db');
 const { v4 } = require('uuid');
+const Utils = require('./utils');
 
-class Address {
+class Address extends Utils {
     constructor({
         id, userId, firstLine, secondLine, fullAddress, pincode, country, state, city, latitude, longitude
     }) {
+        super();
         this.userId = userId;
         this.firstLine = firstLine;
         this.secondLine = secondLine;
@@ -63,7 +65,6 @@ class Address {
 
     async updateAddress() {
         try {
-            console.log(this);
             const { rows, rowCount } = await db.query(this.getUpdateQuery(), [this.userId, this.id]);
             if (!rowCount) {
                 throw 'no such address to update';
@@ -111,21 +112,6 @@ class Address {
         const query = `UPDATE addresses SET ${queryFields.join(', ')} WHERE user_id = $1 and id = $2`;
 
         return query
-    }
-
-    camelToSnake(key) {
-        const newKey = key.split('').reduce((acc, curr) => {
-          const keyCode = curr.charCodeAt(0);
-          if (keyCode < 97) {
-            acc += '_' + curr.toLowerCase();
-          } else {
-            acc += curr
-          }
-      
-          return acc;
-        }, '')
-      
-        return newKey
     }
 
       transformRow(row) {

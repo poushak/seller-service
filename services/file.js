@@ -17,6 +17,16 @@ const uploadItem = (id, file) =>  new Promise((resolve, reject) => {
       .end(file.data)
 });
 
+const deleteItem = async (imageName) => {
+  try {
+    const bucket = storage.bucket('poushak');
+    await bucket.file(imageName).delete();
+  } catch(error) {
+    throw error;
+  }
+}
+
 module.exports = {
-    uploadItem
+    uploadItem,
+    deleteItem
 };
