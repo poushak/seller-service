@@ -26,8 +26,12 @@ app.use(logger);
 // routes
 app.use("/", healthRouter);
 app.use("/products", productRouter);
+
+/*
+deprecated and moved to auth service
 app.use("/users", userRouter);
 app.use("/users/:userId/addresses", addressRouter);
+*/
 
 connectDB();
 mongoose.connection.once('open', () => {
