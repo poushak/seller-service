@@ -61,7 +61,10 @@ const productSchema = new Schema({
     min: 1000
   },
   offeredPrice: {
-    type: Number
+    type: Number,
+  },
+  sellPrice: {
+    type: Number,
   },
   location: {
     firstLine: StringSchema,
