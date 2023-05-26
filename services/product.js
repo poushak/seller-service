@@ -1,4 +1,5 @@
 const ProductModel = require("../models/product");
+const fields = require('../utils/productFields');
 
 const getProducts = async (userId) => {
   return await ProductModel.find({sellerId: userId});
@@ -20,10 +21,15 @@ const deleteProduct = async (id) => {
   return await ProductModel.findByIdAndDelete(id);
 };
 
+const getProductFields = () => {
+  return fields;
+}
+
 module.exports = {
   getProduct,
   getProducts,
   createProduct,
   updateProduct,
   deleteProduct,
+  getProductFields,
 };

@@ -1,0 +1,770 @@
+[
+    {
+      "label": "Nike",
+      "value": "nike"
+    },
+    {
+      "label": "Adidas",
+      "value": "adidas"
+    },
+    {
+      "label": "Puma",
+      "value": "puma"
+    },
+    {
+      "label": "Reebok",
+      "value": "reebok"
+    },
+    {
+      "label": "Levi's",
+      "value": "levi's"
+    },
+    {
+      "label": "Roadster",
+      "value": "roadster"
+    },
+    {
+      "label": "Mast & Harbour",
+      "value": "mast_&_harbour"
+    },
+    {
+      "label": "HRX by Hrithik Roshan",
+      "value": "hrx_by_hrithik_roshan"
+    },
+    {
+      "label": "Tommy Hilfiger",
+      "value": "tommy_hilfiger"
+    },
+    {
+      "label": "U.S. Polo Assn.",
+      "value": "u.s._polo_assn."
+    },
+    {
+      "label": "Flying Machine",
+      "value": "flying_machine"
+    },
+    {
+      "label": "Arrow",
+      "value": "arrow"
+    },
+    {
+      "label": "Van Heusen",
+      "value": "van_heusen"
+    },
+    {
+      "label": "Blackberrys",
+      "value": "blackberrys"
+    },
+    {
+      "label": "Louis Philippe",
+      "value": "louis_philippe"
+    },
+    {
+      "label": "Raymond",
+      "value": "raymond"
+    },
+    {
+      "label": "W for Woman",
+      "value": "w_for_woman"
+    },
+    {
+      "label": "Biba",
+      "value": "biba"
+    },
+    {
+      "label": "Global Desi",
+      "value": "global_desi"
+    },
+    {
+      "label": "Fabindia",
+      "value": "fabindia"
+    },
+    {
+      "label": "Mango",
+      "value": "mango"
+    },
+    {
+      "label": "Forever 21",
+      "value": "forever_21"
+    },
+    {
+      "label": "Vero Moda",
+      "value": "vero_moda"
+    },
+    {
+      "label": "Only",
+      "value": "only"
+    },
+    {
+      "label": "H&M",
+      "value": "h&m"
+    },
+    {
+      "label": "Zara",
+      "value": "zara"
+    },
+    {
+      "label": "Topshop",
+      "value": "topshop"
+    },
+    {
+      "label": "ASOS",
+      "value": "asos"
+    },
+    {
+      "label": "Boohoo",
+      "value": "boohoo"
+    },
+    {
+      "label": "Missguided",
+      "value": "missguided"
+    },
+    {
+      "label": "River Island",
+      "value": "river_island"
+    },
+    {
+      "label": "PrettyLittleThing",
+      "value": "prettylittlething"
+    },
+    {
+      "label": "Nasty Gal",
+      "value": "nasty_gal"
+    },
+    {
+      "label": "New Look",
+      "value": "new_look"
+    },
+    {
+      "label": "Next",
+      "value": "next"
+    },
+    {
+      "label": "Uniqlo",
+      "value": "uniqlo"
+    },
+    {
+      "label": "Abercrombie & Fitch",
+      "value": "abercrombie_&_fitch"
+    },
+    {
+      "label": "Hollister",
+      "value": "hollister"
+    },
+    {
+      "label": "American Eagle Outfitters",
+      "value": "american_eagle_outfitters"
+    },
+    {
+      "label": "Calvin Klein",
+      "value": "calvin_klein"
+    },
+    {
+      "label": "Guess",
+      "value": "guess"
+    },
+    {
+      "label": "Ralph Lauren",
+      "value": "ralph_lauren"
+    },
+    {
+      "label": "Lacoste",
+      "value": "lacoste"
+    },
+    {
+      "label": "Hugo Boss",
+      "value": "hugo_boss"
+    },
+    {
+      "label": "Gucci",
+      "value": "gucci"
+    },
+    {
+      "label": "Prada",
+      "value": "prada"
+    },
+    {
+      "label": "Armani Exchange",
+      "value": "armani_exchange"
+    },
+    {
+      "label": "Banana Republic",
+      "value": "banana_republic"
+    },
+    {
+      "label": "BCBG Max Azria",
+      "value": "bcbg_max_azria"
+    },
+    {
+      "label": "Bershka",
+      "value": "bershka"
+    },
+    {
+      "label": "Diesel",
+      "value": "diesel"
+    },
+    {
+      "label": "DKNY",
+      "value": "dkny"
+    },
+    {
+      "label": "Emporio Armani",
+      "value": "emporio_armani"
+    },
+    {
+      "label": "Fendi",
+      "value": "fendi"
+    },
+    {
+      "label": "G-Star RAW",
+      "value": "g-star_raw"
+    },
+    {
+      "label": "Gap",
+      "value": "gap"
+    },
+    {
+      "label": "GUESS",
+      "value": "guess"
+    },
+    {
+      "label": "J.Crew",
+      "value": "j.crew"
+    },
+    {
+      "label": "Karen Millen",
+      "value": "karen_millen"
+    },
+    {
+      "label": "Karl Lagerfeld",
+      "value": "karl_lagerfeld"
+    },
+    {
+      "label": "Lululemon",
+      "value": "lululemon"
+    },
+    {
+      "label": "Michael Kors",
+      "value": "michael_kors"
+    },
+    {
+      "label": "Nautica",
+      "value": "nautica"
+    },
+    {
+      "label": "Paul Smith",
+      "value": "paul_smith"
+    },
+    {
+      "label": "Polo Ralph Lauren",
+      "value": "polo_ralph_lauren"
+    },
+    {
+      "label": "Ted Baker",
+      "value": "ted_baker"
+    },
+    {
+      "label": "The North Face",
+      "value": "the_north_face"
+    },
+    {
+      "label": "Under Armour",
+      "value": "under_armour"
+    },
+    {
+      "label": "Versace",
+      "value": "versace"
+    },
+    {
+      "label": "Victoria's Secret",
+      "value": "victoria's_secret"
+    },
+    {
+      "label": "Aeropostale",
+      "value": "aeropostale"
+    },
+    {
+      "label": "Alexander McQueen",
+      "value": "alexander_mcqueen"
+    },
+    {
+      "label": "Alice + Olivia",
+      "value": "alice_+_olivia"
+    },
+    {
+      "label": "AllSaints",
+      "value": "allsaints"
+    },
+    {
+      "label": "Ann Taylor",
+      "value": "ann_taylor"
+    },
+    {
+      "label": "Anthropologie",
+      "value": "anthropologie"
+    },
+    {
+      "label": "Aritzia",
+      "value": "aritzia"
+    },
+    {
+      "label": "Balenciaga",
+      "value": "balenciaga"
+    },
+    {
+      "label": "Balmain",
+      "value": "balmain"
+    },
+    {
+      "label": "Bebe",
+      "value": "bebe"
+    },
+    {
+      "label": "Bottega Veneta",
+      "value": "bottega_veneta"
+    },
+    {
+      "label": "Brooks Brothers",
+      "value": "brooks_brothers"
+    },
+    {
+      "label": "Burberry",
+      "value": "burberry"
+    },
+    {
+      "label": "Celine",
+      "value": "celine"
+    },
+    {
+      "label": "Chanel",
+      "value": "chanel"
+    },
+    {
+      "label": "Chloe",
+      "value": "chloe"
+    },
+    {
+      "label": "Coach",
+      "value": "coach"
+    },
+    {
+      "label": "Cole Haan",
+      "value": "cole_haan"
+    },
+    {
+      "label": "Columbia Sportswear",
+      "value": "columbia_sportswear"
+    },
+    {
+      "label": "Converse",
+      "value": "converse"
+    },
+    {
+      "label": "COS",
+      "value": "cos"
+    },
+    {
+      "label": "Dior",
+      "value": "dior"
+    },
+    {
+      "label": "Dolce & Gabbana",
+      "value": "dolce_&_gabbana"
+    },
+    {
+      "label": "Dr. Martens",
+      "value": "dr._martens"
+    },
+    {
+      "label": "Eddie Bauer",
+      "value": "eddie_bauer"
+    },
+    {
+      "label": "Express",
+      "value": "express"
+    },
+    {
+      "label": "Free People",
+      "value": "free_people"
+    },
+    {
+      "label": "Ganni",
+      "value": "ganni"
+    },
+    {
+      "label": "Giorgio Armani",
+      "value": "giorgio_armani"
+    },
+    {
+      "label": "Givenchy",
+      "value": "givenchy"
+    },
+    {
+      "label": "Isabel Marant",
+      "value": "isabel_marant"
+    },
+    {
+      "label": "J Brand",
+      "value": "j_brand"
+    },
+    {
+      "label": "J.Crew Factory",
+      "value": "j.crew_factory"
+    },
+    {
+      "label": "James Perse",
+      "value": "james_perse"
+    },
+    {
+      "label": "John Varvatos",
+      "value": "john_varvatos"
+    },
+    {
+      "label": "Joie",
+      "value": "joie"
+    },
+    {
+      "label": "Kate Spade",
+      "value": "kate_spade"
+    },
+    {
+      "label": "Kenzo",
+      "value": "kenzo"
+    },
+    {
+      "label": "Kith",
+      "value": "kith"
+    },
+    {
+      "label": "L'Agence",
+      "value": "l'agence"
+    },
+    {
+      "label": "Levi's Made & Crafted",
+      "value": "levi's_made_&_crafted"
+    },
+    {
+      "label": "Madewell",
+      "value": "madewell"
+    },
+    {
+      "label": "Maison Margiela",
+      "value": "maison_margiela"
+    },
+    {
+      "label": "Marc Jacobs",
+      "value": "marc_jacobs"
+    },
+    {
+      "label": "Marni",
+      "value": "marni"
+    },
+    {
+      "label": "Massimo Dutti",
+      "value": "massimo_dutti"
+    },
+    {
+      "label": "Max Mara",
+      "value": "max_mara"
+    },
+    {
+      "label": "Moncler",
+      "value": "moncler"
+    },
+    {
+      "label": "Moschino",
+      "value": "moschino"
+    },
+    {
+      "label": "Nanushka",
+      "value": "nanushka"
+    },
+    {
+      "label": "Off-White",
+      "value": "off-white"
+    },
+    {
+      "label": "Opening Ceremony",
+      "value": "opening_ceremony"
+    },
+    {
+      "label": "Oscar de la Renta",
+      "value": "oscar_de_la_renta"
+    },
+    {
+      "label": "Patagonia",
+      "value": "patagonia"
+    },
+    {
+      "label": "Proenza Schouler",
+      "value": "proenza_schouler"
+    },
+    {
+      "label": "Rag & Bone",
+      "value": "rag_&_bone"
+    },
+    {
+      "label": "Rails",
+      "value": "rails"
+    },
+    {
+      "label": "Ralph Lauren Collection",
+      "value": "ralph_lauren_collection"
+    },
+    {
+      "label": "Reformation",
+      "value": "reformation"
+    },
+    {
+      "label": "Rixo",
+      "value": "rixo"
+    },
+    {
+      "label": "Saks Fifth Avenue",
+      "value": "saks_fifth_avenue"
+    },
+    {
+      "label": "Sandro",
+      "value": "sandro"
+    },
+    {
+      "label": "Scotch & Soda",
+      "value": "scotch_&_soda"
+    },
+    {
+      "label": "Self-Portrait",
+      "value": "self-portrait"
+    },
+    {
+      "label": "Sies Marjan",
+      "value": "sies_marjan"
+    },
+    {
+      "label": "St. John",
+      "value": "st._john"
+    },
+    {
+      "label": "Stussy",
+      "value": "stussy"
+    },
+    {
+      "label": "The Kooples",
+      "value": "the_kooples"
+    },
+    {
+      "label": "Theory",
+      "value": "theory"
+    },
+    {
+      "label": "Thom Browne",
+      "value": "thom_browne"
+    },
+    {
+      "label": "Tibi",
+      "value": "tibi"
+    },
+    {
+      "label": "Topman",
+      "value": "topman"
+    },
+    {
+      "label": "Veronica Beard",
+      "value": "veronica_beard"
+    },
+    {
+      "label": "Vans",
+      "value": "vans"
+    },
+    {
+      "label": "New Balance",
+      "value": "new_balance"
+    },
+    {
+      "label": "Asics",
+      "value": "asics"
+    },
+    {
+      "label": "Brooks",
+      "value": "brooks"
+    },
+    {
+      "label": "Skechers",
+      "value": "skechers"
+    },
+    {
+      "label": "Timberland",
+      "value": "timberland"
+    },
+    {
+      "label": "Clarks",
+      "value": "clarks"
+    },
+    {
+      "label": "Steve Madden",
+      "value": "steve_madden"
+    },
+    {
+      "label": "Sam Edelman",
+      "value": "sam_edelman"
+    },
+    {
+      "label": "UGG",
+      "value": "ugg"
+    },
+    {
+      "label": "Birkenstock",
+      "value": "birkenstock"
+    },
+    {
+      "label": "Crocs",
+      "value": "crocs"
+    },
+    {
+      "label": "Havaianas",
+      "value": "havaianas"
+    },
+    {
+      "label": "Tory Burch",
+      "value": "tory_burch"
+    },
+    {
+      "label": "Christian Louboutin",
+      "value": "christian_louboutin"
+    },
+    {
+      "label": "Jimmy Choo",
+      "value": "jimmy_choo"
+    },
+    {
+      "label": "Manolo Blahnik",
+      "value": "manolo_blahnik"
+    },
+    {
+      "label": "Christian Dior",
+      "value": "christian_dior"
+    },
+    {
+      "label": "Fila",
+      "value": "fila"
+    },
+    {
+      "label": "Hoka One One",
+      "value": "hoka_one_one"
+    },
+    {
+      "label": "Jordan",
+      "value": "jordan"
+    },
+    {
+      "label": "Merrell",
+      "value": "merrell"
+    },
+    {
+      "label": "Mizuno",
+      "value": "mizuno"
+    },
+    {
+      "label": "On Running",
+      "value": "on_running"
+    },
+    {
+      "label": "Raf Simons",
+      "value": "raf_simons"
+    },
+    {
+      "label": "Salomon",
+      "value": "salomon"
+    },
+    {
+      "label": "Saucony",
+      "value": "saucony"
+    },
+    {
+      "label": "Valentino",
+      "value": "valentino"
+    },
+    {
+      "label": "Veja",
+      "value": "veja"
+    },
+    {
+      "label": "Yeezy",
+      "value": "yeezy"
+    },
+    {
+      "label": "APL Athletic Propulsion Labs",
+      "value": "apl_athletic_propulsion_labs"
+    },
+    {
+      "label": "Golden Goose",
+      "value": "golden_goose"
+    },
+    {
+      "label": "Allen Edmonds",
+      "value": "allen_edmonds"
+    },
+    {
+      "label": "Bruno Magli",
+      "value": "bruno_magli"
+    },
+    {
+      "label": "Chaco",
+      "value": "chaco"
+    },
+    {
+      "label": "ECCO",
+      "value": "ecco"
+    },
+    {
+      "label": "Frye",
+      "value": "frye"
+    },
+    {
+      "label": "Geox",
+      "value": "geox"
+    },
+    {
+      "label": "Hush Puppies",
+      "value": "hush_puppies"
+    },
+    {
+      "label": "Kenneth Cole",
+      "value": "kenneth_cole"
+    },
+    {
+      "label": "Magnanni",
+      "value": "magnanni"
+    },
+    {
+      "label": "Mephisto",
+      "value": "mephisto"
+    },
+    {
+      "label": "Naot",
+      "value": "naot"
+    },
+    {
+      "label": "Olukai",
+      "value": "olukai"
+    },
+    {
+      "label": "Red Wing Shoes",
+      "value": "red_wing_shoes"
+    },
+    {
+      "label": "Rockport",
+      "value": "rockport"
+    },
+    {
+      "label": "Sorel",
+      "value": "sorel"
+    },
+    {
+      "label": "Sperry",
+      "value": "sperry"
+    },
+    {
+      "label": "Teva",
+      "value": "teva"
+    }
+  ]

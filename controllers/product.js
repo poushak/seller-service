@@ -54,10 +54,20 @@ const deleteProduct = async (req, res) => {
   }
 };
 
+const getProductFields = (req, res) => {
+  try {
+    const fields = productService.getProductFields();
+    res.json({success: fields});
+  } catch (err) {
+    res.status(500).json({error: "unexpected error happened"})
+  }
+}
+
 module.exports = {
   getProduct,
   getProducts,
   createProduct,
   updateProduct,
-  deleteProduct
+  deleteProduct,
+  getProductFields,
 };
